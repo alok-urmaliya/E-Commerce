@@ -11,4 +11,6 @@ public partial class SignInPage : ContentPage
     {
         await Shell.Current.GoToAsync("//SignUp");
     }
+
+  
 }

@@ -7,7 +7,8 @@ public partial class SignUpPage : ContentPage
         InitializeComponent();
     }
 
-    private async void TapGestureRecognizer_Tapped_For_SignIn(object sender, EventArgs e)
+
+    private async void TapGestureRecognizer_Tapped_For_SignIn(object sender, TappedEventArgs e)
     {
         await Shell.Current.GoToAsync("//SignIn");
     }
